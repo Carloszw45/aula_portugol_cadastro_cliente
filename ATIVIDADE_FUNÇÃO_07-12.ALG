@@ -1,11 +1,11 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : CARLOS
 // Data atual  : 07/12/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 NOME_CLIENTE:CARACTER
 IDADE_CLIENTE:INTEIRO
 EMAIL_CLIENTE:CARACTER
@@ -17,7 +17,7 @@ CODIGO:INTEIRO
 PROCEDIMENTO SOLICITAR_CODIGO
 INICIO
     CODIGO <- RANDI (0123456789)+1
-    ESCREVAL("CODÍGO USUARIO:",CODIGO)
+    ESCREVAL("CODÃGO USUARIO:",CODIGO)
 
 FIMPROCEDIMENTO
 
@@ -68,7 +68,7 @@ FIMFUNCAO
 
 PROCEDIMENTO SOLICITAR_ENDERECO
 INICIO
-     escreva("Endereço:")
+     escreva("EndereÃ§o:")
      LEIA(ENDERECO_CLIENTE)
 FIMPROCEDIMENTO
 
@@ -87,7 +87,7 @@ FIMPROCEDIMENTO
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    ESCREVAL("DADOS DO CLIENTE")
    ESCREVAL("-----------------------")
 SOLICITAR_CODIGO
